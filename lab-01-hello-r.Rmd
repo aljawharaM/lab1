@@ -1,11 +1,11 @@
 ---
 title: "Lab 01 - Hello R"
-author: "Musab Isah"
-date: "1/26/2021"
+author: aljawhara khalid 
+date: "1/27/2021"
 output: html_document
 ---
 
-University ID: 
+University ID:123 
 
 ### Load packages
 
