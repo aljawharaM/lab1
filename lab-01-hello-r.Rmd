@@ -4,8 +4,8 @@ author: aljawhara khalid
 date: "1/27/2021"
 output: 
   html_document: 
-    fig_width: 12
-    fig_height: 10
+    fig_width: 14
+    fig_height: 12
 ---
 
 University ID:123 
