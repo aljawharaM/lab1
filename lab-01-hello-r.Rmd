@@ -23,8 +23,8 @@ library(datasauRus)
 ?datasaurus_dozen
 ?datasaurus_dozen
 view(datasaurus_dozen)
-star_data<-datasaurus_dozen%>%filter(dataset=="star")
-ggplot(data=star_data,mapping=aes(x=x,y=y))+geom_point()
+circle_data<-datasaurus_dozen%>%filter(dataset=="circle")
+ggplot(data=circle_data,mapping=aes(x=x,y=y))+geom_point()
 
 
 
