@@ -17,11 +17,11 @@ University ID:123
 
 ### Load packages
 
-
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
-library(datasauRus) 
- ?iris
+library(datasauRus)
+```{r load-packages, message=FALSE}
+?iris
 > ?datasaurus_dozen
 > ?datasaurus_dozen
 > library(datasauRus)
@@ -29,30 +29,3 @@ library(datasauRus)
 > ?datasaurus_dozen
 > view(datasaurus_dozen)
 > datasaurus_dozen%>%count(dataset)%>%print(13)
-# A tibble: 13 x 2
-   dataset        n
- * <chr>      <int>
- 1 away         142
- 2 bullseye     142
- 3 circle       142
- 4 dino         142
- 5 dots         142
- 6 h_lines      142
- 7 high_lines   142
- 8 slant_down   142
- 9 slant_up     142
-10 star         142
-11 v_lines      142
-12 wide_lines   142
-13 x_shape      142
-> >dino_data<-datasaurus_dozen%>%filter(dataset=="dino")
-Error: unexpected '>' in ">"
-> dino_data<-datasaurus_dozen%>%filter(dataset=="dino")
-> ggplot(data=dino_data,mapping=aes(x=y,y=x))+gemo_point()
-Error in gemo_point() : could not find function "gemo_point"
-> ggplot(data=dino_data,mapping=aes(x=x,y=y))+geom_point()
-star_data<-datasaurus_dozen%>%filter(dataset=="star")
-> ggplot(data=star_data,mapping=aes(x=x,y=y))+geom_point()
-circle_data<-datasaurus_dozen%>%filter(dataset=="circle")
-ggplot(data=circle_data,mapping=aes(x=x,y=y))+geom_point()
-> 
