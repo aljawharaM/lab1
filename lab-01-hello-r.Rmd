@@ -15,20 +15,4 @@ University ID:123
 
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
-library(datasauRus)
-```
-
-### Lab Exercise
-Exercise 1
-?iris
-> ?datasaurus_dozen
-> ?datasaurus_dozen
-> library(datasauRus)
-> ?datasaurus_dozen
-> ?datasaurus_dozen
-> view(datasaurus_dozen)
-> datasaurus_dozen%>%count(dataset)%>%print(13)
- dino_data<-datasaurus_dozen%>%filter(dataset=="dino")
-> 
-> ggplot(data=dino_data,mapping=aes(x=x,y=y))+geom_point()
-> dino_data%>%summarize(r=cor(x,y)
+library(datasauRus) 
