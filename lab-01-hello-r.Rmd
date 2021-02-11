@@ -21,5 +21,10 @@ University ID:123
 library(tidyverse) 
 library(datasauRus)
 
-```(dino_data<-datasaurus_dozen%>%filter(dataset=="dino"))
-(ggplot(data=dino_data,mapping=aes(x=x,y=y))+geom_point())
+Answer for Task 2 
+
+
+  
+}
+
+
