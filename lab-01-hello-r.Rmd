@@ -20,4 +20,6 @@ University ID:123
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
 library(datasauRus)
-```
+
+```(dino_data<-datasaurus_dozen%>%filter(dataset=="dino"))
+(ggplot(data=dino_data,mapping=aes(x=x,y=y))+geom_point())
