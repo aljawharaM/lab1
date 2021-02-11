@@ -20,14 +20,4 @@ University ID:123
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
 library(datasauRus)
-###  Lab Exercise 
-dino_data<-datasaurus_dozen%>%filter(dataset=="dino")
-ggplot(data=dino_data,mapping=aes(x=x,y=y))+geom_point()
-
-### Lab Exercise 2
-star_data<-datasaurus_dozen%>%filter(dataset=="star")
-ggplot(data=star_data,mapping=aes(x=x,y=y))+geom_point()
-
-###Lab Exercise 3
-circle_data<-datasaurus_dozen%>%filter(dataset=="circle")
-ggplot(data=circle_data,mapping=aes(x=x,y=y))+geom_point()
+```
